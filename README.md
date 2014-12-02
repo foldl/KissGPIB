@@ -14,7 +14,7 @@ There are two implementations.
 
 GPIB.c uses NI's classic APIs, ibrd, ibwrt, etc. GCC can be used to build this.
 
-'''
+```
  GPIB client command options:
      -port               as an Erlang port
      -board  <N>         (LAN) board index
@@ -26,15 +26,15 @@ GPIB.c uses NI's classic APIs, ibrd, ibwrt, etc. GCC can be used to build this.
      -ls                 list all instruments on a board and quit
      -shutup             suppress all error/debug prints
      -help/-?            show this information
-'''
+```
 
 #### VISA
 
-GPIB.c uses NI's VISA APIs, viRead, viWrite, etc. GCC can't be used to build this, while VC is OK.
+GPIB.c uses VISA APIs, viRead, viWrite, etc. GCC can't be used to build this, while VC is OK.
 
-This version supports both GPIB and LAN-GPIB (VXI11.3).
+This version supports both GPIB and LAN-GPIB (VXI 11.3).
 
-'''
+```
  GPIB client command options:
      -port               as an Erlang port
      -board  <N>         (LAN) board index
@@ -46,4 +46,9 @@ This version supports both GPIB and LAN-GPIB (VXI11.3).
      -ls                 list all instruments on a board and quit
      -shutup             suppress all error/debug prints
      -help/-?            show this information
-'''
+```
+
+NOTE: 
+
+* ./ni Copyright 2001 National Instruments Corporation
+* ./visa Distributed by IVI Foundation Inc., Contains National Instruments extensions. 
