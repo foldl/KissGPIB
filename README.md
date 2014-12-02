@@ -49,6 +49,5 @@ This version supports both GPIB and LAN-GPIB (VXI 11.3).
 ```
 
 NOTE: 
-
-* ./ni Copyright 2001 National Instruments Corporation
-* ./visa Distributed by IVI Foundation Inc., Contains National Instruments extensions. 
+* ./ni: Copyright 2001 National Instruments Corporation
+* ./visa: Distributed by IVI Foundation Inc., Contains National Instruments extensions. 
