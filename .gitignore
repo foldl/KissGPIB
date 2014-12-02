@@ -1,15 +1,17 @@
 # Object files
 *.o
 *.ko
-*.obj
 *.elf
+
+build/
+*.swp
+*.tmp
 
 # Precompiled Headers
 *.gch
 *.pch
 
 # Libraries
-*.lib
 *.a
 *.la
 *.lo
