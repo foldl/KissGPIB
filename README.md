@@ -1,4 +1,4 @@
-KissGPIO
+KissGPIB
 ========
 
 A GPIB client based on KISS principle.
